@@ -73,7 +73,7 @@ INSERT INTO `{prefix}sch_kesis_score_point` (`id_sch_kesis_score_point`, `id_sch
 (47, 2, 'Terlambat masuk ketika pergantian jam pelajaran', -3, 0),
 (48, 2, 'Tidak melaksanakan piket kelas', -3, 0),
 (49, 2, 'Terlambat masuk setelah jam istirahat', -4, 0),
-(50, 2, 'Tidak berangkat extrakurikuler wajib/pilihan tanpa keterangan', -4, 0),
+(50, 2, 'Tidak berangkat ekstrakurikuler wajib/pilihan tanpa keterangan', -4, 0),
 (51, 2, 'Tidak masuk tanpa keterangan', -5, 0),
 (52, 2, 'Membolos/tidak ikut pelajaran dan atau kegiatan sekolah', -10, 0),
 (53, 2, 'Tidak masuk dengan keterangan palsu', -20, 0),
