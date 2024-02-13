@@ -4,7 +4,10 @@ DirectoryIndex index.html index.cgi index.php
 	RewriteEngine On
 	RewriteBase /
 
-#.rewrite.htaccess
+# BEGIN APPS
+	RewriteRule ^sis/bio/(.*)$ index.php?/sch_siswa/siswa/biodata/$1 [L,QSA]
+	RewriteRule ^peg/bio/(.*)$ index.php?/sch_pegawai/pegawai/biodata/$1 [L,QSA]
+# END APPS
 	RewriteRule ^(login/?)$ index.php?/users/user/login [L,QSA]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
