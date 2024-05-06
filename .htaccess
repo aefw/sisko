@@ -8,6 +8,7 @@ DirectoryIndex index.html index.cgi index.php
 	RewriteRule ^sis/bio/(.*)$ index.php?/sch_siswa/siswa/biodata/$1 [L,QSA]
 	RewriteRule ^peg/bio/(.*)$ index.php?/sch_pegawai/pegawai/biodata/$1 [L,QSA]
 	RewriteRule ^verval/pay/(.*)$ index.php?/sch_fa_siswa/inv/verval/$1 [L,QSA]
+	RewriteRule ^verval/trs/(.*)$ index.php?/sch_kurikulum/siswa_transkrip/verval/$1 [L,QSA]
 # END APPS
 	RewriteRule ^(login/?)$ index.php?/users/user/login [L,QSA]
 	RewriteCond %{REQUEST_FILENAME} !-f
